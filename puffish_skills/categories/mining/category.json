@@ -1,0 +1,10 @@
+{
+	"title": "Mining",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "ancient_elements:meteorite_pickaxe"
+		}
+	},
+	"background": "textures/block/iron_block.png"
+}

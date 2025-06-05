@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "37A4574A4AC33132", title: "Introducción" }
+		{ id: "0B13A334CD394162", title: "Ancient Elements" }
+		{ id: "2FC909C1B83A2FBA", title: "Cataclysm" }
+	]
+}

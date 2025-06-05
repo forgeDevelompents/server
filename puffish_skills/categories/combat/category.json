@@ -1,0 +1,10 @@
+{
+	"title": "Combat",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "simplyswords:toxic_longsword"
+		}
+	},
+	"background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+}

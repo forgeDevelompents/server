@@ -1,0 +1,1286 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bosses"
+	group: "2FC909C1B83A2FBA"
+	id: "16862112E9CF80DA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&lPreparate para que te partan la madre&r"]
+			id: "67A4CB9A0F188640"
+			rewards: [
+				{
+					count: 5
+					id: "02BD470C9E412018"
+					item: {
+						Count: 1
+						id: "croptopia:banana_nut_bread"
+						tag: {
+							"ñam!": ""
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5ECFF4DA9F345C66"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:golden_sickle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0DD28CA863A11745"
+				title: "Comenzar"
+				type: "checkmark"
+			}]
+			title: ":D"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67A4CB9A0F188640"]
+			hide_dependency_lines: true
+			id: "0CFD73A078CB0A96"
+			rewards: [
+				{
+					count: 2
+					id: "03724240E0949338"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:desert_eye"
+					}
+					type: "item"
+				}
+				{
+					id: "3F0840F6BB205762"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "17C665AC2CC38096"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:desert_eye"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["00B1FF986328B8C3"]
+			id: "322213AA6CF24810"
+			shape: "hexagon"
+			tasks: [{
+				id: "265052542411C4A2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:cursed_eye"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"081A8375EF905512"
+				"6984610FDF8CF90A"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "0911712658F4B272"
+			shape: "hexagon"
+			tasks: [{
+				id: "007A7B082F7D7C64"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:abyss_eye"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3E357CA2C8D74136"]
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			id: "7A2C311B82559464"
+			invisible_until_tasks: 1
+			shape: "hexagon"
+			tasks: [{
+				id: "06B2777B682DF8F9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:monstrous_eye"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"659C688CC52B2E48"
+				"081A8375EF905512"
+				"47B48CE27DA04E92"
+				"67FA01E0E93A91E1"
+				"6984610FDF8CF90A"
+				"3E357CA2C8D74136"
+			]
+			hide_dependency_lines: true
+			id: "5B906BC7432A28F4"
+			shape: "hexagon"
+			tasks: [{
+				id: "2EC37045244E237B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:mech_eye"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["00B1FF986328B8C3"]
+			id: "650128456835001E"
+			shape: "hexagon"
+			tasks: [{
+				id: "4AB9CE23BAB04F95"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:flame_eye"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"081A8375EF905512"
+				"6984610FDF8CF90A"
+			]
+			hide_dependency_lines: true
+			id: "7FE94232DB4E64B2"
+			shape: "hexagon"
+			tasks: [{
+				id: "4CEA75900B8BE8C7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:void_eye"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["15DC1F3A6A5839F9"]
+			id: "6D72CA5347E2A007"
+			rewards: [{
+				id: "62086FDE0D8216D0"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				id: "3E3DB947DBB87B45"
+				item: "cataclysm:necklace_of_the_desert"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0CFD73A078CB0A96"]
+			id: "15DC1F3A6A5839F9"
+			rewards: [
+				{
+					id: "22F13DE4F76962D6"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "goblintraders:powerful_regeneration"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D82F6E71C9A2FD6"
+					item: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "waystones:sandy_waystone"
+				id: "434F97AB8581FBDF"
+				structure: "cataclysm:cursed_pyramid"
+				title: "Encuentra la cursed piramid"
+				type: "structure"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6D72CA5347E2A007"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cataclysm:kobolediator_skull"
+			}
+			id: "5F24448F0B6146BC"
+			rewards: [
+				{
+					count: 5
+					id: "43EFC97511AB116B"
+					item: "cataclysm:ancient_metal_ingot"
+					type: "item"
+				}
+				{
+					count: 14
+					id: "4B841CBF13E1447A"
+					item: "cataclysm:koboleton_bone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:koboleton"
+				id: "3486F329A857654B"
+				title: "Mata 20 koboleton"
+				type: "kill"
+				value: 20L
+			}]
+			x: -13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5F24448F0B6146BC"]
+			id: "1B85F6200EA8E28A"
+			rewards: [
+				{
+					id: "2FE5CF1C434D8799"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "222CA8BD66A190FF"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:wadjet"
+				icon: {
+					Count: 1
+					id: "dungeons_and_combat:goat_skull_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6A60B5A464995B79"
+				title: "Mata 3 wadjet"
+				type: "kill"
+				value: 3L
+			}]
+			x: -11.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1B85F6200EA8E28A"]
+			id: "4DEC94F87A187CB5"
+			rewards: [{
+				id: "1A4A7F2CAB89CF15"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:ancient_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:kobolediator"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:kobolediator_skull"
+				}
+				id: "74182C785B77C640"
+				title: "Mata 1 kobolediador"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4DEC94F87A187CB5"]
+			hide_dependency_lines: false
+			id: "3E357CA2C8D74136"
+			rewards: [{
+				count: 5
+				id: "2986F18BE4A08FFE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "dungeons_and_combat:remanent"
+				icon: "cataclysm:remnant_skull"
+				id: "13A7B6C18B31192D"
+				title: "Mata al ancient remanent"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3E357CA2C8D74136"]
+			id: "560CDEECE4E14279"
+			tasks: [
+				{
+					id: "1460E82F6B0AEC32"
+					item: {
+						Count: 1
+						id: "cataclysm:bone_reptile_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FC89F6EE748B645"
+					item: {
+						Count: 1
+						id: "cataclysm:bone_reptile_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["560CDEECE4E14279"]
+			id: "1DD714267B13CAC5"
+			tasks: [{
+				id: "7551B97EC4BBB567"
+				item: "cataclysm:modern_remnant_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7A2C311B82559464"]
+			id: "09878BD251DC06DB"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "5B95381208B77301"
+				type: "dimension"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["408C1556F7242EB6"]
+			id: "47B48CE27DA04E92"
+			rewards: [
+				{
+					id: "5296316FF8E50C34"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:netherite_upgrade_smithing_template"
+					}
+					type: "item"
+				}
+				{
+					id: "65DAEB3226737B75"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3C286BB966D7EFBD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:infernal_forge"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:piglin_head"
+					}
+					id: "0810C9914B4C516B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47B48CE27DA04E92"]
+			hide_dependent_lines: true
+			id: "00B1FF986328B8C3"
+			tasks: [{
+				id: "63AEA26419E57195"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:netherite_ministrosity_bucket"
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["09878BD251DC06DB"]
+			id: "408C1556F7242EB6"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "waystones:red_sharestone"
+				}
+				id: "5DF76C7D00420883"
+				structure: "cataclysm:soul_black_smith"
+				type: "structure"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["322213AA6CF24810"]
+			id: "254484FE563EDFE6"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "waystones:blue_sharestone"
+				}
+				id: "0393A573B186D72B"
+				structure: "cataclysm:frosted_prison"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["254484FE563EDFE6"]
+			id: "6A3465AA62ABFB9F"
+			rewards: [
+				{
+					count: 10
+					id: "54746ABF8391F249"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:black_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6537870B5F1BB9A2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "croptopia:taco"
+					}
+					type: "item"
+				}
+				{
+					id: "75A6C9AE3CD09E02"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:draugr"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:draugr_spawn_egg"
+				}
+				id: "284F01932CDA25CF"
+				title: "Mata 20 draugr"
+				type: "kill"
+				value: 20L
+			}]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6A3465AA62ABFB9F"]
+			id: "15A0B0415DDE1F6F"
+			tasks: [{
+				entity: "cataclysm:royal_draugr"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:royal_draugr_spawn_egg"
+				}
+				id: "2A77EDC5F889B85C"
+				type: "kill"
+				value: 8L
+			}]
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["15A0B0415DDE1F6F"]
+			id: "44FC49287F8EB605"
+			tasks: [{
+				entity: "cataclysm:elite_draugr"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:elite_draugr_spawn_egg"
+				}
+				id: "31B30B47497C6265"
+				type: "kill"
+				value: 5L
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["44FC49287F8EB605"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cataclysm:draugr_head"
+			}
+			id: "39F8C397E0CE2D2B"
+			tasks: [{
+				entity: "cataclysm:aptrgangr"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:aptrgangr_spawn_egg"
+				}
+				id: "4E270DDFCE79831F"
+				type: "kill"
+				value: 2L
+			}]
+			x: 5.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["39F8C397E0CE2D2B"]
+			id: "6984610FDF8CF90A"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:aptrgangr_head"
+				}
+				id: "5912BC80ABF87C8F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6984610FDF8CF90A"]
+			id: "1FAD54AE53EB8270"
+			shape: "diamond"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:aptrgangr_head"
+				}
+				id: "4FAD03EAFC00041B"
+				type: "kill"
+				value: 2L
+			}]
+			x: 6.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1FAD54AE53EB8270"]
+			id: "0642FBCA1197CAE8"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "dungeons_and_combat:blood_orb"
+				}
+				id: "53199A45CE463109"
+				type: "kill"
+				value: 5L
+			}]
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["15A0B0415DDE1F6F"]
+			id: "324C8F78DDF75ECE"
+			tasks: [{
+				id: "233BD37CF86D6D8A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:cursium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["324C8F78DDF75ECE"]
+			id: "6EB26214E65130AE"
+			tasks: [{
+				id: "66250AB4F4D6C7CE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:cursium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6EB26214E65130AE"]
+			id: "3A8A5BA79E6B646C"
+			tasks: [
+				{
+					id: "7B24CC8D96749602"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:cursium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D96BAE4ABBE85F3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:cursium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["650128456835001E"]
+			id: "7694682F99F22BC8"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "waystones:sandy_waystone"
+				}
+				id: "1D8ED4545276FC96"
+				structure: "cataclysm:burning_arena"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7694682F99F22BC8"]
+			id: "13204619F1B5B960"
+			tasks: [{
+				entity: "cataclysm:ignited_revenant"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:ignited_revenant_spawn_egg"
+				}
+				id: "57D84F088114B88D"
+				type: "kill"
+				value: 2L
+			}]
+			x: -5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["13204619F1B5B960"]
+			id: "081A8375EF905512"
+			rewards: [
+				{
+					count: 2
+					id: "5A7D2F0F86536828"
+					item: "cataclysm:dying_ember"
+					type: "item"
+				}
+				{
+					id: "659DFDAE51C56A94"
+					item: "cataclysm:bulwark_of_the_flame"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "aquamirae:shell_horn"
+				}
+				id: "1226F0DC9F10718D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["081A8375EF905512"]
+			id: "724138137CD53C22"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:ignitium_ingot"
+				id: "446A634C5CECAA96"
+				type: "kill"
+				value: 2L
+			}]
+			x: -7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0911712658F4B272"]
+			id: "22ADC591B61655B0"
+			tasks: [{
+				icon: "minecraft:respawn_anchor"
+				id: "386877D9F141BD14"
+				structure: "cataclysm:sunken_city"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["22ADC591B61655B0"]
+			id: "42F80B6F7EA6A7B0"
+			tasks: [{
+				entity: "cataclysm:deepling"
+				icon: "cataclysm:deepling_spawn_egg"
+				id: "4A74C01030D660C6"
+				type: "kill"
+				value: 25L
+			}]
+			x: 1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["22ADC591B61655B0"]
+			id: "03BEF0D852B6D540"
+			tasks: [{
+				entity: "cataclysm:deepling_brute"
+				icon: "cataclysm:deepling_brute_spawn_egg"
+				id: "16C2038FA1AFC4A5"
+				type: "kill"
+				value: 15L
+			}]
+			x: -1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["22ADC591B61655B0"]
+			id: "25F2A87A47B2A105"
+			tasks: [{
+				entity: "cataclysm:deepling_angler"
+				icon: "cataclysm:deepling_angler_spawn_egg"
+				id: "00C12AAA7D099F6E"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["22ADC591B61655B0"]
+			id: "0FC420A244D80CA2"
+			tasks: [{
+				entity: "cataclysm:deepling_priest"
+				icon: "cataclysm:deepling_priest_spawn_egg"
+				id: "6541D8ECC0FF9D37"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["22ADC591B61655B0"]
+			id: "730BC1A89D17C741"
+			tasks: [{
+				entity: "cataclysm:deepling_warlock"
+				icon: "cataclysm:deepling_warlock_spawn_egg"
+				id: "3F52033B64379A90"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"0FC420A244D80CA2"
+				"03BEF0D852B6D540"
+				"42F80B6F7EA6A7B0"
+				"730BC1A89D17C741"
+				"25F2A87A47B2A105"
+			]
+			id: "1B154F137FB44166"
+			tasks: [
+				{
+					entity: "cataclysm:coralssus"
+					icon: "cataclysm:coralssus_spawn_egg"
+					id: "153CE4FE45EC5B62"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "51A8C7F18305FA3E"
+					item: "cataclysm:coral_chunk"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1B154F137FB44166"]
+			id: "21A4B5B74ECF20CC"
+			tasks: [
+				{
+					entity: "cataclysm:coral_golem"
+					icon: "cataclysm:coral_golem_spawn_egg"
+					id: "6F572E08339D8D3F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 4L
+					id: "36EC3DACC416ACEE"
+					item: { Count: 4, id: "cataclysm:crystallized_coral_fragments" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["21A4B5B74ECF20CC"]
+			id: "7C68EF01AF24DC44"
+			tasks: [{
+				id: "0D35385B6B01E23E"
+				item: "cataclysm:abyssal_sacrifice"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["0911712658F4B272"]
+			id: "07309ADF256B9BA4"
+			rewards: [
+				{
+					count: 3
+					id: "13C9C9331FB4CD04"
+					item: "cataclysm:amethyst_crab_meat"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "35BAD81473D94684"
+					item: "cataclysm:amethyst_crab_shell"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:amethyst_crab"
+				icon: "croptopia:crab"
+				id: "6C59A8A6812B5C50"
+				type: "kill"
+				value: 2L
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7C68EF01AF24DC44"]
+			id: "67FA01E0E93A91E1"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:altar_of_abyss"
+				id: "5F994A08FD69C7FE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["67FA01E0E93A91E1"]
+			id: "61B0BBD953F51D41"
+			tasks: [{
+				id: "0E9FB4D6A1DCF6B5"
+				item: "cataclysm:the_baby_leviathan_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["7FE94232DB4E64B2"]
+			id: "455A4C67E1518EA6"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:ender_eye"
+				}
+				id: "51C04350FC387F3D"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["455A4C67E1518EA6"]
+			id: "63C4B9A1BBB0FBC4"
+			tasks: [{
+				icon: "cataclysm:void_infused_end_stone_bricks"
+				id: "3A6D86D72B1ED08B"
+				structure: "cataclysm:ruined_citadel"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["63C4B9A1BBB0FBC4"]
+			id: "253728BE7FB26CA7"
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				icon: "rats:rat_upgrade_golem_mount"
+				id: "483C6BE0F3791CA1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["253728BE7FB26CA7"]
+			id: "659C688CC52B2E48"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "rats:rat_upgrade_ender"
+				id: "15B358497203DB20"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5B906BC7432A28F4"]
+			id: "3AC6C3EC3C847EBE"
+			tasks: [{
+				icon: "rats:ancient_sawblade"
+				id: "66787E6B3F352549"
+				structure: "cataclysm:ancient_factory"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3AC6C3EC3C847EBE"]
+			id: "562B3268F4162EAE"
+			tasks: [{
+				entity: "cataclysm:the_watcher"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:the_watcher_spawn_egg"
+				}
+				id: "51F49E43E0A0655E"
+				type: "kill"
+				value: 5L
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["562B3268F4162EAE"]
+			id: "42C20690D58FEDC7"
+			tasks: [{
+				entity: "cataclysm:the_prowler"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:the_prowler_spawn_egg"
+				}
+				id: "586A636870DE34CA"
+				type: "kill"
+				value: 2L
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["42C20690D58FEDC7"]
+			id: "4B06EB371D99B500"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:emp"
+				id: "3C41FFCB53FCED22"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4B06EB371D99B500"]
+			id: "115F0CA2AE270ADC"
+			tasks: [{
+				id: "435DF0431185DAF2"
+				item: "cataclysm:mechanical_fusion_anvil"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.5d
+		}
+	]
+	title: "Bosses"
+}

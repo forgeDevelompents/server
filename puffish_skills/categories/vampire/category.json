@@ -1,0 +1,10 @@
+{
+	"title": "Vampire",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "dungeons_and_combat:chalice_with_blood"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/nether.png"
+}

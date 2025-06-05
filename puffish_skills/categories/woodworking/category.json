@@ -1,0 +1,10 @@
+{
+	"title": "Woodworking",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "ancient_elements:meteorite_axe"
+		}
+	},
+	"background": "textures/block/oak_log.png"
+}

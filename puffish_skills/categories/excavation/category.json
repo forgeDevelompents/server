@@ -1,0 +1,10 @@
+{
+	"title": "Excavation",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "cataclysm:black_steel_shovel"
+		}
+	},
+	"background": "textures/block/dirt.png"
+}

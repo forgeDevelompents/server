@@ -1,0 +1,250 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ancient_elements"
+	group: "0B13A334CD394162"
+	id: "2FB9E98359CE84D0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1DFDF9922AB2DBF8"]
+			id: "4497E9C1301AA46D"
+			rewards: [{
+				id: "2EDB413691F4C29A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4AE95CBE29360332"
+				item: "ancient_elements:raw_tin"
+				type: "item"
+			}]
+			title: "Qué estaño..."
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DFDF9922AB2DBF8"]
+			id: "5D843016B85FA2F8"
+			rewards: [{
+				id: "260A26BAA483CCB0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "60912E55EC84BB17"
+				item: "ancient_elements:raw_steel"
+				type: "item"
+			}]
+			title: "Acero puro!"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1DFDF9922AB2DBF8"]
+			id: "5396ACB151E5A73F"
+			rewards: [{
+				id: "1D8463411E51DCB0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3C8042BC1370559E"
+				item: "ancient_elements:raw_jungle_steel"
+				type: "item"
+			}]
+			title: "Acero salvaje (?"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1DFDF9922AB2DBF8"]
+			id: "3F729DB522789BAB"
+			rewards: [{
+				id: "789643465B35A8F1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "37EA9C32354FA77E"
+				item: "ancient_elements:raw_palladium"
+				type: "item"
+			}]
+			title: "Paladínio"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DFDF9922AB2DBF8"]
+			id: "0324DE8EC1AC890C"
+			rewards: [{
+				id: "614F83BCC922EF2E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0D6BBC4E4E747A85"
+				item: "ancient_elements:obsidian_ingot"
+				type: "item"
+			}]
+			title: "Fundiendo Obsidiana"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "1DFDF9922AB2DBF8"
+			rewards: [{
+				description: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:ancient_debris"
+				}
+				id: "2868262B9F82B06F"
+				title: "Elementos Antigüos"
+				type: "toast"
+			}]
+			tasks: [{
+				id: "3233D5A01EE54129"
+				title: "Comenzar"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DFDF9922AB2DBF8"]
+			id: "73D57B2319A3E052"
+			rewards: [{
+				id: "45E592FB7FF94E42"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "38577CB97FBB4FEA"
+				item: "ancient_elements:amethyst_ingot"
+				type: "item"
+			}]
+			title: "Oh, brilla!"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5D843016B85FA2F8"]
+			id: "4E0E4B00E7550315"
+			rewards: [{
+				id: "1B91A5EB872B35F2"
+				item: "ancient_elements:steel_upgrade_template"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5E5510A4C0241810"
+					item: {
+						Count: 1
+						id: "ancient_elements:steel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "641BFD80F368EA07"
+					item: {
+						Count: 1
+						id: "ancient_elements:steel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2238BAC8332CA4BC"
+					item: {
+						Count: 1
+						id: "ancient_elements:steel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "600064CD62D0D17E"
+					item: {
+						Count: 1
+						id: "ancient_elements:steel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cúbreme de acero!"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5396ACB151E5A73F"]
+			id: "6E545A2AEA851D2F"
+			tasks: [
+				{
+					id: "6810DD001A639EF4"
+					item: {
+						Count: 1
+						id: "ancient_elements:jungle_steel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "173ECAE8AD182FE0"
+					item: {
+						Count: 1
+						id: "ancient_elements:jungle_steel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D9152C999801D2D"
+					item: {
+						Count: 1
+						id: "ancient_elements:jungle_steel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C5EA8B27A122F6F"
+					item: {
+						Count: 1
+						id: "ancient_elements:jungle_steel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Camuflaje de jungla"
+			x: 3.0d
+			y: -2.0d
+		}
+	]
+	title: "Minerales"
+}

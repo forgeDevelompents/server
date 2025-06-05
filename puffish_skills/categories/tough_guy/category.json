@@ -1,0 +1,10 @@
+{
+	"title": "Tough Guy",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "legendary_monsters:knight_summoner"
+		}
+	},
+	"background": "textures/block/bricks.png"
+}

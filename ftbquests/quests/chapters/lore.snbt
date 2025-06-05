@@ -1,0 +1,34 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lore"
+	group: "37A4574A4AC33132"
+	id: "2F68678B3025302F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "0A7BAA4B2E0B3DAE"
+		rewards: [{
+			count: 16
+			id: "1D21410C0077C5CD"
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "croptopia:buttered_toast"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			id: "1AD60B5F332C0A54"
+			title: "Lore"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Lore"
+}
