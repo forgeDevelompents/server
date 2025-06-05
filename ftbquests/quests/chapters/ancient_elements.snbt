@@ -1735,11 +1735,26 @@
 				"659D50DB649C5877"
 			]
 			id: "444D1C5438CA086C"
-			rewards: [{
-				id: "712E14BA4B2C5BC0"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "712E14BA4B2C5BC0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0912A727A64924D6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:crystalised_aurora_apple"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5303F66D4A880D37"
 				item: "ancient_elements:aurora_crystal"

@@ -1,0 +1,448 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mobs"
+	group: "0B13A334CD394162"
+	id: "4F7F4CBFC932AE87"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "52C7A38296867F1D"
+			rewards: [{
+				description: "Has aceptado la misión de los enemigos antigüos"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ancient_elements:aetherial_glaze_spawn_egg"
+				}
+				id: "2F12920228E6194D"
+				title: "Enemigos antigüos"
+				type: "toast"
+			}]
+			tasks: [{
+				id: "52BC171D40C33B27"
+				title: "Aceptar"
+				type: "checkmark"
+			}]
+			title: "Comenzar"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52C7A38296867F1D"]
+			description: ["Solo aparecen a mucha altura"]
+			id: "2EF08F08F78B9954"
+			rewards: [
+				{
+					count: 3
+					id: "70E7760DA8B2FC6F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:aether_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "23FD4B4E7C2C4A86"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Consejo:"
+			tasks: [{
+				entity: "ancient_elements:aetherial_glaze"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ancient_elements:aetherial_glaze_spawn_egg"
+				}
+				id: "44731D2DB62167E7"
+				title: "Mata 5 Aetherial Glazes"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Matanza aerea"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["52C7A38296867F1D"]
+			id: "54BC2FBB2F461BEB"
+			rewards: [
+				{
+					count: 2
+					id: "48884808C6E413C0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:ancient_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "5F03E66DC320FE53"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "ancient_elements:undead_gladiator"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ancient_elements:undead_gladiator_spawn_egg"
+				}
+				id: "6587B76FFD3AFA0C"
+				title: "Mata un Undead Gladiator"
+				type: "kill"
+				value: 1L
+			}]
+			title: "La guerra nunca muere"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["52C7A38296867F1D"]
+			id: "04DFCF36D7111A57"
+			rewards: [
+				{
+					count: 2
+					id: "7D1623181915DA69"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:raw_infernal_ore"
+					}
+					type: "item"
+				}
+				{
+					id: "0A334E5789E84183"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "ancient_elements:inflamed_wither_skeleton"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ancient_elements:inflamed_wither_skeleton_spawn_egg"
+				}
+				id: "0AF2E10C1CA436EB"
+				title: "Mata 2 Inflamated withers"
+				type: "kill"
+				value: 2L
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["52C7A38296867F1D"]
+			id: "117302D02926BD7A"
+			rewards: [
+				{
+					count: 3
+					id: "05DE096AF606462C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3C6BB0F309887AC2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ancient_elements:stone_golem_spawn_egg"
+				}
+				id: "53A4699B5ACC7F0F"
+				title: "Mata un Golem de piedra"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Golem de los de antes"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["52C7A38296867F1D"]
+			id: "4B1E759F0FE1F718"
+			rewards: [
+				{
+					count: 3
+					id: "46C7787D54556725"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:dynamite_item"
+					}
+					type: "item"
+				}
+				{
+					id: "729032AC1DBF0DB0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "ancient_elements:undead_miner"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ancient_elements:undead_miner_spawn_egg"
+				}
+				id: "1463D35F3D9205C1"
+				title: "Mata 5 Mineros No Muertos"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Si hay que ser minero.."
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52C7A38296867F1D"]
+			description: ["Solo se encuentran en el END"]
+			id: "041048EC4CBC9A4F"
+			rewards: [
+				{
+					id: "4ED19D836313FAE0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:void_skipping_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41DC653CACF0D7DB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Consejo:"
+			tasks: [{
+				entity: "ancient_elements:singularity"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ancient_elements:singularity_spawn_egg"
+				}
+				id: "479835ACC87B7670"
+				title: "Mata 5 Singularities"
+				type: "kill"
+				value: 5L
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["52C7A38296867F1D"]
+			id: "068288D8FF227E75"
+			rewards: [
+				{
+					count: 15
+					id: "001CA953654CF20C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:crystalised_aurora_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "7ADBA0AD4B1A5E2B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:aurora_crystal_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11857452669D05D7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					entity: "ancient_elements:aurora_crystal_slime"
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:aurora_crystal_slime_spawn_egg"
+					}
+					id: "5CF97415C91E6595"
+					title: "Mata 1 Aurora Crystal Slime"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "ancient_elements:cerulean_crystal_slime"
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:cerulean_crystal_slime_spawn_egg"
+					}
+					id: "7CE3FF06943B5DC0"
+					title: "Mata 1 Cerulean Crystal Slime"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "ancient_elements:nocturnal_crystal_slime"
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:nocturnal_crystal_slime_spawn_egg"
+					}
+					id: "09A60F29F6CDDCD6"
+					title: "Mata 1 Nocturnal Crystal Slime"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "ancient_elements:scarlet_crystal_slime"
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:scarlet_crystal_slime_spawn_egg"
+					}
+					id: "4DB0D8646F5A1702"
+					title: "Mata 1 Scarlet Crystal Slime"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "ancient_elements:topaz_crystal_slime"
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:topaz_crystal_slime_spawn_egg"
+					}
+					id: "08D2370F108A95DF"
+					title: "Mata 1 Topaz Crystal Slime"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "ancient_elements:verdant_viridium_crystal_slime"
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:verdant_viridium_crystal_slime_spawn_egg"
+					}
+					id: "3F65E162255A02DB"
+					title: "Mata 1 Verdant Vidrium Slime"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Viscoso, pero sabroso"
+			x: -2.5d
+			y: -0.5d
+		}
+	]
+	title: "Mobs"
+}
