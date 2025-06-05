@@ -89,6 +89,18 @@
 		{
 			dependencies: ["00B1FF986328B8C3"]
 			id: "322213AA6CF24810"
+			rewards: [
+				{
+					id: "4BE1DE365E31E872"
+					item: "cataclysm:cursed_eye"
+					type: "item"
+				}
+				{
+					id: "3A380B1800275BC5"
+					type: "xp"
+					xp: 200
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "265052542411C4A2"
@@ -115,6 +127,7 @@
 			hide_dependency_lines: true
 			id: "0911712658F4B272"
 			shape: "hexagon"
+			subtitle: "Consejo, antes visitar una cueva y hacerte con unos cangrejos"
 			tasks: [{
 				id: "007A7B082F7D7C64"
 				item: {
@@ -137,6 +150,19 @@
 			hide_details_until_startable: true
 			id: "7A2C311B82559464"
 			invisible_until_tasks: 1
+			rewards: [
+				{
+					count: 2
+					id: "6549D1A993B283E5"
+					item: "cataclysm:monstrous_eye"
+					type: "item"
+				}
+				{
+					id: "622D3C948B193E11"
+					type: "xp"
+					xp: 200
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "06B2777B682DF8F9"
@@ -185,6 +211,19 @@
 		{
 			dependencies: ["00B1FF986328B8C3"]
 			id: "650128456835001E"
+			rewards: [
+				{
+					count: 2
+					id: "7D35510375FD8DB9"
+					item: "cataclysm:flame_eye"
+					type: "item"
+				}
+				{
+					id: "5A339B00B3046CFB"
+					type: "xp"
+					xp: 200
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "4AB9CE23BAB04F95"
@@ -239,6 +278,7 @@
 				item: "cataclysm:necklace_of_the_desert"
 				type: "item"
 			}]
+			title: "Encuentra el tesoro en la piramide"
 			x: -9.0d
 			y: -5.0d
 		}
@@ -390,20 +430,39 @@
 			dependencies: ["4DEC94F87A187CB5"]
 			hide_dependency_lines: false
 			id: "3E357CA2C8D74136"
-			rewards: [{
-				count: 5
-				id: "2986F18BE4A08FFE"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			rewards: [
+				{
+					count: 5
+					id: "2986F18BE4A08FFE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
 						}
+						id: "minecraft:diamond"
 					}
-					id: "minecraft:diamond"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 20
+					id: "03BCFEBA1B0EAD7E"
+					item: "minecraft:cooked_porkchop"
+					type: "item"
+				}
+				{
+					id: "106BD4B577AB6CF3"
+					item: "ironchest:iron_to_gold_chest_upgrade"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1310351F83EFCC80"
+					item: "ancient_elements:crystalised_scarlet_apple"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "dungeons_and_combat:remanent"
 				icon: "cataclysm:remnant_skull"
@@ -418,6 +477,27 @@
 		{
 			dependencies: ["3E357CA2C8D74136"]
 			id: "560CDEECE4E14279"
+			rewards: [{
+				id: "695E9A8B87989587"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "travelersbackpack:standard"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1460E82F6B0AEC32"
@@ -442,28 +522,47 @@
 					type: "item"
 				}
 			]
+			title: "Craftea la armadura antigua"
 			x: -10.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["560CDEECE4E14279"]
 			id: "1DD714267B13CAC5"
+			rewards: [{
+				id: "356E2E7218EE1C3A"
+				type: "xp"
+				xp: 1500
+			}]
 			tasks: [{
 				id: "7551B97EC4BBB567"
 				item: "cataclysm:modern_remnant_bucket"
 				type: "item"
 			}]
+			title: "Peque remnant"
 			x: -9.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["7A2C311B82559464"]
 			id: "09878BD251DC06DB"
+			rewards: [{
+				id: "48FF043BC34D5156"
+				item: {
+					Count: 1
+					id: "minecraft:golden_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "5B95381208B77301"
 				type: "dimension"
 			}]
+			title: "What the HEEELL"
 			x: -6.5d
 			y: 0.5d
 		}
@@ -485,6 +584,7 @@
 					type: "item"
 				}
 				{
+					count: 2
 					id: "65DAEB3226737B75"
 					item: {
 						Count: 1
@@ -531,6 +631,7 @@
 					value: 1L
 				}
 			]
+			title: "Cargate a la monstruosidad de netherite"
 			x: -9.0d
 			y: -2.0d
 		}
@@ -538,6 +639,11 @@
 			dependencies: ["47B48CE27DA04E92"]
 			hide_dependent_lines: true
 			id: "00B1FF986328B8C3"
+			rewards: [{
+				id: "2E01FC6ECCB2D35D"
+				type: "xp"
+				xp: 1500
+			}]
 			tasks: [{
 				id: "63AEA26419E57195"
 				item: {
@@ -551,12 +657,26 @@
 				}
 				type: "item"
 			}]
+			title: "peque netherite"
 			x: -13.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["09878BD251DC06DB"]
 			id: "408C1556F7242EB6"
+			rewards: [
+				{
+					id: "04D1B7DFEA0AD79B"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					description: ""
+					id: "7D1DF5836533CDFA"
+					title: "what the hell"
+					type: "toast"
+				}
+			]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -571,12 +691,18 @@
 				structure: "cataclysm:soul_black_smith"
 				type: "structure"
 			}]
+			title: "Encuentra la forja"
 			x: -9.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["322213AA6CF24810"]
 			id: "254484FE563EDFE6"
+			rewards: [{
+				id: "4050A197223CF9B9"
+				item: "waystones:waystone"
+				type: "item"
+			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -591,6 +717,7 @@
 				structure: "cataclysm:frosted_prison"
 				type: "structure"
 			}]
+			title: "Encuentra la prision de hielo"
 			x: 5.0d
 			y: -5.0d
 		}
@@ -654,6 +781,25 @@
 		{
 			dependencies: ["6A3465AA62ABFB9F"]
 			id: "15A0B0415DDE1F6F"
+			rewards: [
+				{
+					count: 10
+					id: "770DA093A6D70E7D"
+					item: "cataclysm:black_steel_ingot"
+					type: "item"
+				}
+				{
+					id: "36B4E28FA602492A"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:steel_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:royal_draugr"
 				icon: {
@@ -669,12 +815,32 @@
 				type: "kill"
 				value: 8L
 			}]
+			title: "Mata 20 royal draugr"
 			x: 10.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["15A0B0415DDE1F6F"]
 			id: "44FC49287F8EB605"
+			rewards: [
+				{
+					count: 8
+					id: "7882029618B9581E"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "3E9CD840345E671B"
+					item: {
+						Count: 1
+						id: "simplyswords:diamond_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:elite_draugr"
 				icon: {
@@ -690,21 +856,29 @@
 				type: "kill"
 				value: 5L
 			}]
+			title: "Destruye 5 royal draugr"
 			x: 5.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["44FC49287F8EB605"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "cataclysm:draugr_head"
-			}
+			icon: "cataclysm:draugr_head"
 			id: "39F8C397E0CE2D2B"
+			rewards: [
+				{
+					count: 3
+					id: "7D868B638C434317"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "198D4EA5F4BDD465"
+					item: "cataclysm:black_steel_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "El nombre de estos bichos es peor que una formula de quimica"
 			tasks: [{
 				entity: "cataclysm:aptrgangr"
 				icon: {
@@ -720,12 +894,25 @@
 				type: "kill"
 				value: 2L
 			}]
+			title: "Solo hazte con 2.."
 			x: 5.0d
 			y: -10.5d
 		}
 		{
 			dependencies: ["39F8C397E0CE2D2B"]
 			id: "6984610FDF8CF90A"
+			rewards: [
+				{
+					id: "65C80ADDEF2BC309"
+					type: "xp"
+					xp: 900
+				}
+				{
+					id: "5F2451B61DAD5916"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:maledictus"
 				icon: {
@@ -741,12 +928,41 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "Acaba con maledictus"
 			x: 6.5d
 			y: -10.5d
 		}
 		{
 			dependencies: ["6984610FDF8CF90A"]
 			id: "1FAD54AE53EB8270"
+			rewards: [
+				{
+					id: "75F157468770340A"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 20
+					id: "759F24CC9FE215A3"
+					item: "cataclysm:black_steel_ingot"
+					type: "item"
+				}
+				{
+					id: "736E4141C9178B8C"
+					item: "refurbished_furniture:cooked_vegetable_pizza"
+					type: "item"
+				}
+				{
+					id: "62C423CC5D7B4CA9"
+					item: "minecraft:silence_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "4C52782B90DD7653"
+					item: "dungeons_and_combat:saw_cleaver_glaive"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				entity: "cataclysm:maledictus"
@@ -763,12 +979,42 @@
 				type: "kill"
 				value: 2L
 			}]
+			title: "maledic2"
 			x: 6.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["1FAD54AE53EB8270"]
 			id: "0642FBCA1197CAE8"
+			rewards: [
+				{
+					id: "6B6A2B554D84F47B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "06F36C9FF07A85D0"
+					item: {
+						Count: 1
+						id: "create:potato_cannon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "302A925FFDC2229B"
+					item: {
+						Count: 1
+						id: "simplyswords:twisted_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:maledictus"
 				icon: {
@@ -784,12 +1030,18 @@
 				type: "kill"
 				value: 5L
 			}]
+			title: "maldiceme esta"
 			x: 7.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["15A0B0415DDE1F6F"]
 			id: "324C8F78DDF75ECE"
+			rewards: [{
+				id: "6B4BA192F5486FB8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "233BD37CF86D6D8A"
 				item: {
@@ -812,6 +1064,11 @@
 		{
 			dependencies: ["324C8F78DDF75ECE"]
 			id: "6EB26214E65130AE"
+			rewards: [{
+				id: "6448EBC2E486F1D9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "66250AB4F4D6C7CE"
 				item: {
@@ -834,6 +1091,11 @@
 		{
 			dependencies: ["6EB26214E65130AE"]
 			id: "3A8A5BA79E6B646C"
+			rewards: [{
+				id: "3E51FF7005188627"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [
 				{
 					id: "7B24CC8D96749602"
@@ -874,6 +1136,19 @@
 		{
 			dependencies: ["650128456835001E"]
 			id: "7694682F99F22BC8"
+			rewards: [
+				{
+					id: "059E12C23DF7D7A1"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2D6C2CC76D132D4A"
+					item: "create:honeyed_apple"
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -888,12 +1163,32 @@
 				structure: "cataclysm:burning_arena"
 				type: "structure"
 			}]
+			title: "Encuentra la burning arena"
 			x: -4.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["7694682F99F22BC8"]
 			id: "13204619F1B5B960"
+			rewards: [
+				{
+					id: "33C77EDFB0A80790"
+					item: {
+						Count: 1
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "goblintraders:extended_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "73FDC465CAC8BB7E"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:ignited_revenant"
 				icon: {
@@ -949,6 +1244,19 @@
 		{
 			dependencies: ["081A8375EF905512"]
 			id: "724138137CD53C22"
+			rewards: [
+				{
+					id: "50CF3CCEC2969247"
+					type: "xp"
+					xp: 1500
+				}
+				{
+					count: 5
+					id: "205F7BDB31831858"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:ignis"
 				icon: "cataclysm:ignitium_ingot"
@@ -962,18 +1270,42 @@
 		{
 			dependencies: ["0911712658F4B272"]
 			id: "22ADC591B61655B0"
+			rewards: [
+				{
+					id: "6A6708A62C013741"
+					item: {
+						Count: 1
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:long_water_breathing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5389405994F4F033"
+					item: "minecraft:sponge"
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: "minecraft:respawn_anchor"
 				id: "386877D9F141BD14"
 				structure: "cataclysm:sunken_city"
 				type: "structure"
 			}]
+			title: "Encuentra la ciudad hundida"
 			x: 0.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["22ADC591B61655B0"]
 			id: "42F80B6F7EA6A7B0"
+			rewards: [{
+				id: "1DBCEE3FDF6BED23"
+				type: "xp"
+				xp: 300
+			}]
 			tasks: [{
 				entity: "cataclysm:deepling"
 				icon: "cataclysm:deepling_spawn_egg"
@@ -981,12 +1313,37 @@
 				type: "kill"
 				value: 25L
 			}]
-			x: 1.5d
-			y: -9.5d
+			x: 0.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["22ADC591B61655B0"]
 			id: "03BEF0D852B6D540"
+			rewards: [
+				{
+					count: 15
+					id: "5C3C224E8C5AB284"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					id: "5D653C404F953AC8"
+					item: {
+						Count: 1
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 60
+					id: "2C123A4BF37F7B8C"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:deepling_brute"
 				icon: "cataclysm:deepling_brute_spawn_egg"
@@ -1000,6 +1357,25 @@
 		{
 			dependencies: ["22ADC591B61655B0"]
 			id: "25F2A87A47B2A105"
+			rewards: [
+				{
+					count: 8
+					id: "440433664D6340F6"
+					item: "croptopia:tuna_roll"
+					type: "item"
+				}
+				{
+					id: "07FFA2B0F95C5628"
+					item: {
+						Count: 1
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:admire_goat_horn"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:deepling_angler"
 				icon: "cataclysm:deepling_angler_spawn_egg"
@@ -1007,12 +1383,25 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: 0.0d
-			y: -8.0d
+			x: 1.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["22ADC591B61655B0"]
 			id: "0FC420A244D80CA2"
+			rewards: [{
+				id: "234052E52EF95C9B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:amethyst_block"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "cataclysm:deepling_priest"
 				icon: "cataclysm:deepling_priest_spawn_egg"
@@ -1026,6 +1415,11 @@
 		{
 			dependencies: ["22ADC591B61655B0"]
 			id: "730BC1A89D17C741"
+			rewards: [{
+				id: "08A2A88439783AF3"
+				item: "minecraft:nautilus_shell"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "cataclysm:deepling_warlock"
 				icon: "cataclysm:deepling_warlock_spawn_egg"
@@ -1045,6 +1439,11 @@
 				"25F2A87A47B2A105"
 			]
 			id: "1B154F137FB44166"
+			rewards: [{
+				id: "10FB5219E33805A8"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					entity: "cataclysm:coralssus"
@@ -1059,12 +1458,18 @@
 					type: "item"
 				}
 			]
+			title: "de corazón"
 			x: 0.0d
 			y: -10.5d
 		}
 		{
 			dependencies: ["1B154F137FB44166"]
 			id: "21A4B5B74ECF20CC"
+			rewards: [{
+				id: "21CBB5B246A143DB"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					entity: "cataclysm:coral_golem"
@@ -1080,17 +1485,39 @@
 					type: "item"
 				}
 			]
+			title: "Consigue esto"
 			x: 0.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["21A4B5B74ECF20CC"]
 			id: "7C68EF01AF24DC44"
+			rewards: [
+				{
+					count: 5
+					id: "638FB067BD72716C"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1B1A29CADD5D5111"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1B6F2E166E00D2E9"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0D35385B6B01E23E"
 				item: "cataclysm:abyssal_sacrifice"
 				type: "item"
 			}]
+			title: "Fabrica el corazón del abismo"
 			x: 0.0d
 			y: -13.5d
 		}
@@ -1118,12 +1545,73 @@
 				type: "kill"
 				value: 2L
 			}]
+			title: "Yo no me la jugaría.."
 			x: 2.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["7C68EF01AF24DC44"]
 			id: "67FA01E0E93A91E1"
+			rewards: [
+				{
+					id: "7471CDF31148087D"
+					type: "xp"
+					xp: 1700
+				}
+				{
+					id: "4321D3411AB987AF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "relics:drowned_belt"
+						tag: {
+							abilities: {
+								anchor: {
+									points: 0
+									stats: {
+										sinking: 3.08045d
+										slowness: 0.45453d
+									}
+								}
+								pressure: {
+									points: 0
+									stats: {
+										damage: 1.56565d
+									}
+								}
+								riptide: {
+									points: 0
+									stats: {
+										cooldown: 6.00191d
+									}
+								}
+								slots: {
+									points: 0
+									stats: {
+										charm: 0.75394d
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BE47569CF40CCDD"
+					item: {
+						Count: 1
+						id: "simplyswords:shadowsting"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:the_leviathan"
 				icon: "cataclysm:altar_of_abyss"
@@ -1131,17 +1619,31 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "¿Es un tiburón?"
 			x: 0.0d
 			y: -15.0d
 		}
 		{
 			dependencies: ["67FA01E0E93A91E1"]
 			id: "61B0BBD953F51D41"
+			rewards: [
+				{
+					id: "2D2B6EE79D309408"
+					item: "supplementaries:enderman_head"
+					type: "item"
+				}
+				{
+					id: "6FAAA65DAAC7DE3A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				id: "0E9FB4D6A1DCF6B5"
 				item: "cataclysm:the_baby_leviathan_bucket"
 				type: "item"
 			}]
+			title: "peque leviathan"
 			x: 0.0d
 			y: -16.5d
 		}
@@ -1162,6 +1664,7 @@
 				id: "51C04350FC387F3D"
 				type: "dimension"
 			}]
+			title: "¿el final?"
 			x: 3.0d
 			y: 5.0d
 		}
@@ -1174,6 +1677,7 @@
 				structure: "cataclysm:ruined_citadel"
 				type: "structure"
 			}]
+			title: "tu lo encuentras? yo no"
 			x: 2.5d
 			y: 7.5d
 		}
@@ -1187,6 +1691,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "el diablo"
 			x: 4.5d
 			y: 8.5d
 		}
@@ -1200,24 +1705,70 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "el guardian"
 			x: 6.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["5B906BC7432A28F4"]
 			id: "3AC6C3EC3C847EBE"
+			rewards: [
+				{
+					count: 10
+					id: "69A16B2A9CB46AEF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
+				}
+				{
+					count: 20
+					id: "46E573E033E74594"
+					item: "croptopia:cooked_tuna"
+					type: "item"
+				}
+				{
+					id: "254605AA514436D5"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:blessed_gold_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75A26F646A1DCB77"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				icon: "rats:ancient_sawblade"
 				id: "66787E6B3F352549"
 				structure: "cataclysm:ancient_factory"
 				type: "structure"
 			}]
+			title: "Encuentra la factoria"
 			x: 6.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["3AC6C3EC3C847EBE"]
 			id: "562B3268F4162EAE"
+			rewards: [{
+				count: 3
+				id: "761B35692BFAE4EE"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "cataclysm:the_watcher"
 				icon: {
@@ -1233,12 +1784,24 @@
 				type: "kill"
 				value: 5L
 			}]
+			title: "Te veo.."
 			x: 7.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["562B3268F4162EAE"]
 			id: "42C20690D58FEDC7"
+			rewards: [{
+				id: "3B6A128C47A3EDC3"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:tungsten_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "cataclysm:the_prowler"
 				icon: {
@@ -1254,12 +1817,37 @@
 				type: "kill"
 				value: 2L
 			}]
+			title: "Te corto"
 			x: 7.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["42C20690D58FEDC7"]
 			id: "4B06EB371D99B500"
+			rewards: [
+				{
+					count: 2
+					id: "2FD9500B1A9BD435"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "6ED0A626D09A93AB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4A41556BD43E3D60"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "59E8292B5065D211"
+					item: "cataclysm:witherite_ingot"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:the_harbinger"
 				icon: "cataclysm:emp"
@@ -1267,17 +1855,24 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "Experimento fallido"
 			x: 11.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["4B06EB371D99B500"]
 			id: "115F0CA2AE270ADC"
+			rewards: [{
+				id: "5C746B11C5FC2DA1"
+				item: "cataclysm:ignitium_upgrade_smithing_template"
+				type: "item"
+			}]
 			tasks: [{
 				id: "435DF0431185DAF2"
 				item: "cataclysm:mechanical_fusion_anvil"
 				type: "item"
 			}]
+			title: "La creación"
 			x: 14.0d
 			y: 0.5d
 		}
