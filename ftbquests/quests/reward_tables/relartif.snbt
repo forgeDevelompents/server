@@ -1,0 +1,109 @@
+{
+	id: "2787E89817F741C8"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "relics:infinity_ham"
+				tag: {
+					abilities: {
+						autophagy: {
+							points: 0
+							stats: {
+								feed: 1.97081d
+							}
+						}
+						infusion: {
+							points: 0
+							stats: {
+								duration: 2.0861d
+							}
+						}
+					}
+					pieces: 10
+				}
+			}
+			weight: 0.001f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "relics:leather_belt"
+				tag: {
+					abilities: {
+						slots: {
+							points: 0
+							stats: {
+								charm: 1.06492d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "artifacts:night_vision_goggles"
+			}
+			weight: 0.6f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "artifacts:pocket_piston"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "artifacts:universal_attractor"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "relics:roller_skates"
+				tag: {
+					abilities: {
+						skating: {
+							points: 0
+							stats: {
+								duration: 32.90305d
+								speed: 0.00484d
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+	title: "RelArtif"
+}

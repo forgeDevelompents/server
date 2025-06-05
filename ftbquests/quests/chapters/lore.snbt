@@ -3,25 +3,50 @@
 	default_quest_shape: ""
 	filename: "lore"
 	group: "37A4574A4AC33132"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "biomeswevegone:pine_bookshelf"
+	}
 	id: "2F68678B3025302F"
 	order_index: 0
 	quest_links: [ ]
 	quests: [{
+		description: [
+			"Vivimos en una sociedad donde las criaturas mágicas abundan, donde hay todo tipo de peligros acechando."
+			""
+			"Avanza, no te detengas, derrótalos a todos, proclámate vencedor/a porque el futuro de este mundo está en tus manos."
+			""
+			"Equípate con lo mejor de lo mejor, explora tanto como puedas, pero no te olvides de disfrutar de los pequeños momentos, las construcciones, las risas, la pesca. Sobre todo, vívelo."
+		]
 		id: "0A7BAA4B2E0B3DAE"
-		rewards: [{
-			count: 16
-			id: "1D21410C0077C5CD"
-			item: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
+		rewards: [
+			{
+				count: 16
+				id: "1D21410C0077C5CD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
 					}
+					id: "croptopia:buttered_toast"
 				}
-				id: "croptopia:buttered_toast"
+				type: "item"
 			}
-			type: "item"
-		}]
+			{
+				exclude_from_claim_all: true
+				id: "372D5B071C2F927C"
+				table_id: 2848501029269881288L
+				type: "random"
+			}
+		]
+		subtitle: "Adventure+"
 		tasks: [{
 			id: "1AD60B5F332C0A54"
 			title: "Lore"

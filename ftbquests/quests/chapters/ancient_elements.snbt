@@ -9,12 +9,14 @@
 	quests: [
 		{
 			dependencies: ["1DFDF9922AB2DBF8"]
+			description: ["Encuentra estaño"]
 			id: "4497E9C1301AA46D"
 			rewards: [{
 				id: "2EDB413691F4C29A"
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Mineral"
 			tasks: [{
 				id: "4AE95CBE29360332"
 				item: "ancient_elements:raw_tin"
@@ -22,75 +24,64 @@
 			}]
 			title: "Qué estaño..."
 			x: -3.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1DFDF9922AB2DBF8"]
+			description: ["Encuentra Acero"]
 			id: "5D843016B85FA2F8"
 			rewards: [{
 				id: "260A26BAA483CCB0"
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Mineral"
 			tasks: [{
 				id: "60912E55EC84BB17"
 				item: "ancient_elements:raw_steel"
 				type: "item"
 			}]
 			title: "Acero puro!"
-			x: -1.5d
+			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["1DFDF9922AB2DBF8"]
-			id: "5396ACB151E5A73F"
-			rewards: [{
-				id: "1D8463411E51DCB0"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "3C8042BC1370559E"
-				item: "ancient_elements:raw_jungle_steel"
-				type: "item"
-			}]
-			title: "Acero salvaje (?"
-			x: 1.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["1DFDF9922AB2DBF8"]
+			description: ["Encuentra Palladium"]
 			id: "3F729DB522789BAB"
 			rewards: [{
 				id: "789643465B35A8F1"
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Mineral"
 			tasks: [{
 				id: "37EA9C32354FA77E"
 				item: "ancient_elements:raw_palladium"
 				type: "item"
 			}]
 			title: "Paladínio"
-			x: 3.0d
+			x: 2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1DFDF9922AB2DBF8"]
+			description: ["Funde obsidiana para convertirla en lingotes"]
 			id: "0324DE8EC1AC890C"
 			rewards: [{
 				id: "614F83BCC922EF2E"
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Mineral"
 			tasks: [{
 				id: "0D6BBC4E4E747A85"
 				item: "ancient_elements:obsidian_ingot"
 				type: "item"
 			}]
 			title: "Fundiendo Obsidiana"
-			x: -1.5d
-			y: 2.0d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
 			id: "1DFDF9922AB2DBF8"
@@ -119,29 +110,34 @@
 		}
 		{
 			dependencies: ["1DFDF9922AB2DBF8"]
+			description: ["Funde fragmentos de amatista para conseguir su lingote"]
 			id: "73D57B2319A3E052"
 			rewards: [{
-				id: "45E592FB7FF94E42"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "30E054B5DF3D76ED"
+				type: "xp"
+				xp: 100
 			}]
+			subtitle: "Mineral"
 			tasks: [{
 				id: "38577CB97FBB4FEA"
 				item: "ancient_elements:amethyst_ingot"
 				type: "item"
 			}]
 			title: "Oh, brilla!"
-			x: 1.5d
-			y: 2.0d
+			x: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5D843016B85FA2F8"]
+			description: ["Consigue un set entero de Acero"]
 			id: "4E0E4B00E7550315"
 			rewards: [{
+				count: 2
 				id: "1B91A5EB872B35F2"
 				item: "ancient_elements:steel_upgrade_template"
 				type: "item"
 			}]
+			subtitle: "Armadura"
 			tasks: [
 				{
 					id: "5E5510A4C0241810"
@@ -189,12 +185,37 @@
 				}
 			]
 			title: "Cúbreme de acero!"
-			x: -3.0d
-			y: -2.0d
+			x: 0.0d
+			y: -3.5d
 		}
 		{
-			dependencies: ["5396ACB151E5A73F"]
+			dependencies: ["5E61869463922A2F"]
+			description: ["Consigue un set completo de Acero de Jungla"]
 			id: "6E545A2AEA851D2F"
+			rewards: [
+				{
+					id: "1A017F90483CAAC7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:jungle_steel_drill"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D741A0294E30DB0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Armadura"
 			tasks: [
 				{
 					id: "6810DD001A639EF4"
@@ -242,8 +263,1490 @@
 				}
 			]
 			title: "Camuflaje de jungla"
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4497E9C1301AA46D"]
+			description: ["Consigue un set completo de Estaño"]
+			id: "1230773024F826D5"
+			rewards: [
+				{
+					id: "145AA1E37BEB753F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:tin_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CE89E902BA431D5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Armadura"
+			tasks: [
+				{
+					id: "1ACE9F8BC341C54D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:tin_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7424F92785C1871F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:tin_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DAC5EB61C1EE823"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:tin_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E4FF9B0F735F25F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:tin_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Estañamente protegido"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3F729DB522789BAB"]
+			description: ["Consigue un set completo de Palladium"]
+			id: "50503B8E3D45A95B"
+			rewards: [
+				{
+					id: "029920F58A1F894F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:palladium_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3067266610E71FEC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Armadura"
+			tasks: [
+				{
+					id: "32BF332749C152AA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:palladium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F60E72426B4BC52"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:palladium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A38F0FD39D38DB1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:palladium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "427C0AA72FA3788F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:palladium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Todo un palladín"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73D57B2319A3E052"]
+			description: ["Consigue un set completo de Amatista"]
+			id: "3BE8D5CBBE57E2E5"
+			rewards: [
+				{
+					id: "5A327DE7DEB923B6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:amethyst_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "043F1A98D5D26B5D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Armadura"
+			tasks: [
+				{
+					id: "5AFF89FB323AA2C9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:amethyst_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AF090DA6833758B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:amethyst_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AE0C3CA0BF3C8EA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:amethyst_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C5E1DC9730B0DDD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:amethyst_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Montoya va donde brilla"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0324DE8EC1AC890C"]
+			description: ["Consigue un set completo de Obsidiana"]
+			id: "5608718E65C161D4"
+			rewards: [
+				{
+					id: "66D47633C36154B4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:obsidian_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E8A4B16DC25CEBE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Armadura"
+			tasks: [
+				{
+					id: "1280580ED1D29B10"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:obsidian_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "274AF9266FC54605"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:obsidian_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EE7529AC858C838"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:obsidian_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "535381BD1C1C91D2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:obsidian_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Indestructible"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DFDF9922AB2DBF8"]
+			description: ["Para poder continuar necesitamos irnos al inframundo!"]
+			id: "3D9A6BE6B35AD36C"
+			rewards: [{
+				id: "6EA41C33FCF553E1"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Nether"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:crying_obsidian"
+				}
+				id: "56C7FA274AF40FD7"
+				title: "Plus Ultra!"
+				type: "dimension"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D9A6BE6B35AD36C"]
+			id: "2FA015AF598564D1"
+			rewards: [
+				{
+					id: "1AFFB8E852637B63"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:netherite_upgrade_smithing_template"
+					}
+					type: "item"
+				}
+				{
+					id: "1AC666776379D706"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "3223ED6212396A1E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2FA015AF598564D1"]
+			description: ["Encuentra un meteorito y consigue su mineral"]
+			id: "7858D390DABA0B75"
+			rewards: [{
+				id: "1242BC4B1468F91A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Mineral"
+			tasks: [{
+				id: "2F2ED9B28E4152F3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ancient_elements:raw_meteorite"
+				}
+				type: "item"
+			}]
+			title: "E.T.?"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D9A6BE6B35AD36C"]
+			description: ["Consigue Acero del Nether"]
+			id: "0B797286C194F364"
+			rewards: [{
+				id: "40F470DB4E13502D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Mineral"
+			tasks: [{
+				id: "4E90CDCB3D341161"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ancient_elements:raw_nether_steel"
+				}
+				type: "item"
+			}]
+			title: "Al rojo vivo!"
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2FA015AF598564D1"]
+			description: ["Consigue fragmentos helados"]
+			id: "68983512DA446349"
+			rewards: [{
+				id: "5349819A46A763F5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Mineral"
+			tasks: [{
+				id: "3FD25DE10967B210"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ancient_elements:frost_shard"
+				}
+				type: "item"
+			}]
+			title: "Brrr!!"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1DFDF9922AB2DBF8"]
+			description: ["Encuentra plomo"]
+			id: "4FD1B9356696BD72"
+			rewards: [{
+				id: "68786598059A3392"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Mineral"
+			tasks: [{
+				id: "6063086EA8FF0C69"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ancient_elements:raw_lead"
+				}
+				type: "item"
+			}]
+			title: "Plomero profesional"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4FD1B9356696BD72"]
+			description: ["Consigue un set completo de plomo"]
+			id: "52813DE8D6E33CCE"
+			rewards: [
+				{
+					id: "4DE06D31D2D2414C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:lead_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "031CE34C03CF14B6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Armadura"
+			tasks: [
+				{
+					id: "0D4A5CD4701B0D24"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:lead_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CDF189DECEB5052"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:lead_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62E572CD356B84A6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:lead_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2FC0FE3F66B55E94"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:lead_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Con pies de plomo!"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1DFDF9922AB2DBF8"]
+			description: ["Consigue Titanio"]
+			id: "6D69087C12D5A508"
+			rewards: [{
+				id: "689F8AF229545E05"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Mineral"
+			tasks: [{
+				id: "611FDF7FE2A7C616"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ancient_elements:raw_titanium"
+				}
+				type: "item"
+			}]
+			title: "Mineral Titánico"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D69087C12D5A508"]
+			description: ["Consigue un set completo de Titanio"]
+			id: "4D481A9A9DF7DCC3"
+			rewards: [
+				{
+					id: "0D7480819C5BEC3B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "15DF416325C9CE8D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:titanium_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Armadura"
+			tasks: [
+				{
+					id: "3E556A13835BA782"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:titanium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55AEF754202BF051"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:titanium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1508EF3CFBF509EE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:titanium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3572B48D06BDF8AF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:titanium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E0E4B00E7550315"]
+			dependency_requirement: "one_started"
+			id: "5E61869463922A2F"
+			rewards: [{
+				id: "44741EA0F6F5E381"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Herrería"
+			tasks: [{
+				id: "53329E044F428FA3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ancient_elements:steel_upgrade_template"
+				}
+				type: "item"
+			}]
+			title: "Mejoras de acero"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5E61869463922A2F"]
+			description: ["Consigue un set completo de Acero del Nether"]
+			id: "16CE9E1E6B85D9BD"
+			rewards: [
+				{
+					id: "7809ACEDCB15A83C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:nether_steel_drill"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "366BA19EFC1CC753"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Armadura"
+			tasks: [
+				{
+					id: "1765669FE133786C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:nether_steel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C6E9B1CF68E46A1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:nether_steel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06D4C0E055286A16"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:nether_steel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B8986FFB5792405"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:nether_steel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Paso que voy ardiendo!"
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5E61869463922A2F"]
+			description: ["Consigue un set completo de Acero del vacío"]
+			id: "0C72421CC7639FD6"
+			rewards: [
+				{
+					id: "1790998549B51A36"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:void_steel_drill"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05810C9F5F014CA3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Armadura"
+			tasks: [
+				{
+					id: "414AE4B084FF8BCB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:void_steel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E70D10253D17117"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:void_steel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "390B918B5AB1E49A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:void_steel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "198F41941C4177DC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ancient_elements:void_steel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Armadura hueca"
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			description: ["Consigue un Mineral Compounder para aumentar la productividad de tus ores"]
+			id: "150E56540DE51F7F"
+			rewards: [{
+				id: "78C725D7E9062A56"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Herrería"
+			tasks: [{
+				id: "3C47D0DD6345D26D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ancient_elements:mineral_compounder"
+				}
+				type: "item"
+			}]
+			title: "La combi completa"
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1DFDF9922AB2DBF8"]
+			description: ["Nueva dimensión, nuevos materiales!"]
+			id: "2DBDAE4376B4D751"
+			rewards: [{
+				id: "769A35B1A4166744"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "El principio del fin"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:end_portal_frame"
+				}
+				id: "29BD5EE237B44802"
+				title: "Visita el end"
+				type: "dimension"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1DFDF9922AB2DBF8"
+				"170988EAB391F18C"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Consigue Atherium (Puedes craftearlo o picarlo con spectrium)"]
+			id: "51E5AC2B6B27BB18"
+			rewards: [
+				{
+					count: 2
+					id: "0F771F3681826F36"
+					item: "ancient_elements:raw_aetherium"
+					type: "item"
+				}
+				{
+					id: "4CD03B3652D9E373"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Mineral"
+			tasks: [{
+				id: "0CBDE5A2E59D31CD"
+				item: "ancient_elements:raw_aetherium"
+				type: "item"
+			}]
+			title: "Mineral celestial"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2DBDAE4376B4D751"]
+			description: ["Neceistarás mínimo diamante para picarlo"]
+			id: "56E81414CAA77044"
+			rewards: [
+				{
+					count: 3
+					id: "6E1E31840CC1A74C"
+					item: "ancient_elements:raw_ender_steel"
+					type: "item"
+				}
+				{
+					id: "583C8792A7E0E202"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Mineral"
+			tasks: [{
+				id: "75DE00BF95DBE5AF"
+				item: "ancient_elements:raw_ender_steel"
+				type: "item"
+			}]
+			title: "Acero del fin!"
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1DFDF9922AB2DBF8"]
+			description: ["Necesitarás diamante para picarlo"]
+			id: "170988EAB391F18C"
+			rewards: [{
+				id: "1E7063264827BB60"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Mineral"
+			tasks: [{
+				id: "08835307D5EF1CFC"
+				item: "ancient_elements:raw_spectrillium"
+				type: "item"
+			}]
+			title: "El minerAlma de la fiesta!"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"170988EAB391F18C"
+				"2DBDAE4376B4D751"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Necesitaras spectrillium para picarlo"]
+			id: "0F613147F7E83070"
+			rewards: [{
+				id: "76EE8339CCBAC0B6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Mineral"
+			tasks: [{
+				id: "5D04961AC5FE1C39"
+				item: "ancient_elements:raw_endrium"
+				type: "item"
+			}]
+			title: "Enderita"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0F613147F7E83070"]
+			description: ["Para minarlo necesitaras enderita"]
+			id: "121662D9AE5A131E"
+			rewards: [{
+				id: "5118C4419AD9A3FF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Mineral"
+			tasks: [{
+				id: "52C8F3FC0CD4A92F"
+				item: "ancient_elements:raw_celestium"
+				type: "item"
+			}]
+			title: "Mineral celestial v2"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["121662D9AE5A131E"]
+			description: ["Necesitarás celestium para picarlo"]
+			id: "5614F5C0FCDE0C47"
+			rewards: [
+				{
+					count: 3
+					id: "3F11BEEC83614BC5"
+					item: "ancient_elements:galactric_scrap"
+					type: "item"
+				}
+				{
+					id: "7FB48EFAFC9A3549"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Mineral"
+			tasks: [{
+				id: "67D7CE60A68A80F5"
+				item: "ancient_elements:galactric_debris"
+				type: "item"
+			}]
+			title: "Mineral galáctico"
 			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"170988EAB391F18C"
+				"3D9A6BE6B35AD36C"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"Necesitarás spectrillium para picarlo"
+				""
+			]
+			id: "3A79741F50233115"
+			rewards: [
+				{
+					id: "042EAB7AF25A6F05"
+					item: "ancient_elements:infernal_smithing_template"
+					type: "item"
+				}
+				{
+					id: "26D50EC99B359C7A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Mineral"
+			tasks: [{
+				id: "3FB2EB503B0C2FAE"
+				item: "ancient_elements:raw_infernal_ore"
+				type: "item"
+			}]
+			title: "Mineral infernal"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3D9A6BE6B35AD36C"
+				"170988EAB391F18C"
+			]
+			dependency_requirement: "one_started"
+			description: ["Necesitarás spectrillium para minarlo"]
+			id: "0DFAD34FFDB472B7"
+			rewards: [
+				{
+					count: 3
+					id: "601487E0A1634B2B"
+					item: "ancient_elements:hellstone_fragment"
+					type: "item"
+				}
+				{
+					id: "6740DDCB91054985"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Mineral"
+			tasks: [{
+				id: "0078AB97B7FA5E96"
+				item: "ancient_elements:hellstone_fragment"
+				type: "item"
+			}]
+			title: "Mineral infernal v2"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			id: "5FF19985C570952F"
+			rewards: [{
+				id: "2639A0B6CC286370"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Aleación"
+			tasks: [{
+				id: "725AFAAFCB782B5B"
+				item: "ancient_elements:jungle_steel_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0B797286C194F364"]
+			id: "09281C4DEFF05224"
+			rewards: [{
+				id: "6317BD7A64C24078"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Aleación"
+			tasks: [{
+				id: "1E2E0CE3DBEE9BF9"
+				item: "ancient_elements:nether_steel_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			id: "744790A4EBAC2577"
+			rewards: [{
+				id: "0E6C78697ED79091"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Aleación"
+			tasks: [{
+				id: "25C64EF0B3F16F35"
+				item: "ancient_elements:void_steel_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0F613147F7E83070"]
+			id: "0FBA1D3572EA0166"
+			rewards: [{
+				id: "58699EC71D58F4EF"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Aleación"
+			tasks: [{
+				id: "1F17123410496123"
+				item: "ancient_elements:ender_steel_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"09281C4DEFF05224"
+				"0FBA1D3572EA0166"
+				"744790A4EBAC2577"
+				"5FF19985C570952F"
+			]
+			description: [""]
+			id: "06867FADC84F8ACB"
+			rewards: [
+				{
+					count: 4
+					id: "1B444552A6E9B370"
+					item: "ancient_elements:elementinium_ingot"
+					type: "item"
+				}
+				{
+					id: "08BAEEA5DE6B6A99"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Aleación"
+			tasks: [{
+				id: "20A485BBAE72D221"
+				item: "ancient_elements:elementinium_ingot"
+				type: "item"
+			}]
+			title: "Elemental querido Wattson"
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			id: "42875D10FFF4E427"
+			tasks: [{
+				id: "2F2BE64B8A94AC9C"
+				item: "ancient_elements:cerulean_shard"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			id: "75BE4E286E7694C2"
+			tasks: [{
+				id: "2884B26DB51D7DC9"
+				item: "ancient_elements:scarlet_shard"
+				type: "item"
+			}]
+			x: -10.5d
 			y: -2.0d
+		}
+		{
+			id: "6B323A15BA65C261"
+			tasks: [{
+				id: "471C7D4C90865AA7"
+				item: "ancient_elements:topaz_shard"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			id: "32AA14F80E75E504"
+			tasks: [{
+				id: "599044DDE3ED4806"
+				item: "ancient_elements:verdant_viridium_shard"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			id: "659D50DB649C5877"
+			tasks: [{
+				id: "36A47480BDA34BA4"
+				item: "ancient_elements:nocturnal_shard"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			id: "6ED4B5464FD6FF57"
+			tasks: [{
+				id: "71CD92A68BAF7489"
+				item: "ancient_elements:selenite_shard"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			id: "2B287939105532BE"
+			tasks: [{
+				id: "2064D272B11BF260"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			id: "266E99B188F5ECC8"
+			tasks: [{
+				id: "6C76E2ACB6E374FD"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"266E99B188F5ECC8"
+				"75BE4E286E7694C2"
+				"32AA14F80E75E504"
+				"6ED4B5464FD6FF57"
+				"6B323A15BA65C261"
+				"42875D10FFF4E427"
+				"2B287939105532BE"
+				"659D50DB649C5877"
+			]
+			id: "444D1C5438CA086C"
+			rewards: [{
+				id: "712E14BA4B2C5BC0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5303F66D4A880D37"
+				item: "ancient_elements:aurora_crystal"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
 		}
 	]
 	title: "Minerales"
